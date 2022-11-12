@@ -1,0 +1,44 @@
+*** (Instructions) ***
+id Fac
+id id
+e4 id
+id e4
+id id
+id n
+tp2 id
+e4 1
+id e4
+e4 1
+id e4
+e4 1
+e4 e4
+id Adder
+id id
+id id
+e0 e4, id
+e8 this
+id e8
+e3 e0, id
+id e3
+id id
+st4 id, id
+e0 id, st4
+varDec tp2, e0
+id varDec
+tp2 id
+id tp2
+tp2 id
+id tp2
+id b
+id id
+id id
+id id
+tp2 id
+id tp2
+tp2 id
+id tp2
+tp2 id
+id tp2
+clsDec id, id
+mnCls id, clsDec
+program mnCls

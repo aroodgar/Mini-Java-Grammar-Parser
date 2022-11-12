@@ -15,7 +15,7 @@ class Fac {
 }
 class Adder {
  public int Compute(int a , int b){
- result = a + b;
+ int result = a + b;
  return result ;
  }
 }
